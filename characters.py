@@ -10,7 +10,7 @@ GRAVITY = 1
 # Define a velocidade inicial no pulo
 JUMP_SIZE = 20
 # Define a altura do chão
-GROUND = 710
+GROUND = 272
 
 # Define estados possíveis do jogador
 WALKING = 0
@@ -186,7 +186,7 @@ class Citizen(pygame.sprite.Sprite):
 
         # Armazena as posições em que o herói surge na tela.
         self.rect.x = 1024 + randint(1, 400)
-        self.rect.y = 633
+        self.rect.y = 272
 
         # Guarda o tick da primeira imagem
         self.last_update = pygame.time.get_ticks()
